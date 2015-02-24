@@ -10,8 +10,7 @@ public class fizzbuzz{
      
       }else if ((i % 15) == 0){ 
           System.out.println("fizzbuzz");  
-                           
-      System.out.print(" "); 
+     
     }
     System.out.println(i);
   }
