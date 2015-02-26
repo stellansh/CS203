@@ -12,7 +12,7 @@ package homework;
 public class Smallest {
     public static void main(String[] args) {
         
-    double smallest =0;
+    double smallest =0;                    //double smallest=nums[0]
        double[]nums= new double[100];
        for (int i=0;i<nums.length;i++)
        {

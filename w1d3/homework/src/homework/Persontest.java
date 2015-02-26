@@ -13,13 +13,16 @@ public class Persontest {
     public static void main(String[] args){
         Person[] people= new Person[5];
         Person p1= new Person();
-        p1.name = "stella nshuti";
+        p1.name1 = "stella";
+        p1.name2 ="nshuti";
         for (int i=0; i<people.length; i++){
             people[i]= p1;
         }
-        people[0].name= "sam smith";
-         for (int j=0; j<people.length; j++) {
-            System.out.println(people[j].name);
+        p1.name2= "smith";
+        
+        for (int i=0; i<people.length; i++) {
+            System.out.println(people[i].name1+" "+people[i].name2);
+            
         }
        
     }

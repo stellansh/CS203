@@ -10,5 +10,8 @@ package homework;
  * @author stella
  */
 public class Person {
-   String name;
+   String name1;
+   String name2;
+   
+   
 }
