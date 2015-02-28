@@ -12,11 +12,11 @@ package homework4;
 public class Catquiztest {
     public static void main (String[]args){
     Catquiz Schrodinger= new Catquiz();
-    //String name="stella";
+    //Schro.Setname("stella");
     System.out.println(Schrodinger.getName());
     System.out.println(Schrodinger.getAge());
     System.out.println(Schrodinger.getGender());
-          
+      //print(purr.)    
      
        //Schrodinger.setName(name);
     //Schrodinger.display();

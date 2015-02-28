@@ -19,8 +19,8 @@ public class Cartestdrive {
        myCar1.moveDown();
        myCar2.moveUp();
        myCar2.moveLeft();
-       myCar1.printLocation();
-       myCar2.printLocation();
+      // myCar1.printLocation();
+       //myCar2.printLocation();
        
     }
     

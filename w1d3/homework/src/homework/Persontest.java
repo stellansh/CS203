@@ -11,7 +11,7 @@ package homework;
  */
 public class Persontest {
     public static void main(String[] args){
-        Person[] people= new Person[5];
+        Person[] people= new Person[2];
         Person p1= new Person();
         p1.name1 = "stella";
         p1.name2 ="nshuti";
