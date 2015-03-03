@@ -30,7 +30,7 @@ public class carr {
     
      //}public void setY(int x, int y){
        // this.x=x;
-       // this.y=y;
+        this.y=y;
        
     }
     

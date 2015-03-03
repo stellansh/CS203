@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package javaapplication4;
+package homework;
 
 /**
  *
@@ -22,7 +22,7 @@ public class GameHelper {
             inputLine = is.readLine();
             if (inputLine.length() == 0) {
                 return null;
-        } catch (IOException e){
+        }catch (IOException e){
             System.out.println("IOException: " + e);
         }
         return inputLine;
