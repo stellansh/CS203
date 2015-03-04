@@ -9,12 +9,15 @@ package w2d2;
  *
  * @author stella
  */
+
+
 public class Automobile {
    private String make;
    private String model;
     private int year;
     private String color;
     protected int speed;
+ 
 
     public String getMake() {
         return make;

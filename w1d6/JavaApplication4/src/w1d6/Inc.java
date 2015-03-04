@@ -3,14 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package w1d5;
+package w1d6;
 
 /**
  *
  * @author stella
  */
 public class Inc {
-  
     public static void main(String[] args) {
         int i = 5;
         
@@ -31,7 +30,4 @@ public class Inc {
         
     }
 }
-
-    
-    
-    
+}
