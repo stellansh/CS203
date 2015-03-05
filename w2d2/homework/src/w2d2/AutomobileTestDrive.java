@@ -42,12 +42,13 @@ public class AutomobileTestDrive {
         
          for (Automobile x : autos) {
              for (int i=0;i<3;i++){
-                 x.accelerate();
+                 x.accelerate();  //runtime poly
              }
                   x.brake();
        System.out.print("The " + x.getMake());
        System.out.print(" " + x.getModel() + " has a speed of ");
-       System.out.println("Speed is: " + x.speed);
+       System.out.println( x.speed);// koz am in the same package i dont need
+       //get/set and it was public
              
          }
         
