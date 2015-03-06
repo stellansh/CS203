@@ -18,20 +18,22 @@ public class VehiTestdriver {
         ArrayList<Asset> assets = new ArrayList<>();
         ArrayList<Object> objects = new ArrayList<>();
         CorporateCar cc = new CorporateCar();
+         cc.move(3);
 
         vehicles.add(cc);
         assets.add(cc);
         objects.add(cc);
+        
         cc.purchasePrice = 20000.00;
         cc.currentValue = 15000.00;
         cc.setYearPurchased(2009);
 
-        cc.brake();
+        cc.brake();                   //for(Assets cc:assets) blablabla
         System.out.println("Speed is " + cc.getSpeed());
         cc.accelerate();
         System.out.println("Speed is " + cc.getSpeed());
         System.out.println(cc.getPurchasePrice());
-        System.out.println(cc.toString());
+        System.out.println(cc.toString());//for Obbjects o: 
 
     }
 }

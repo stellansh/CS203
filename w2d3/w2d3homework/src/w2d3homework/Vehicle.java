@@ -13,7 +13,7 @@ public abstract class Vehicle {
 
     private double x;
     private double y;
-    private int speed;
+    protected int speed;
     private int direction;
 
     public double getX() {
@@ -65,6 +65,7 @@ public abstract class Vehicle {
         } else {
             direction += amount;
         }
+    }
                
     public abstract void accelerate();
 

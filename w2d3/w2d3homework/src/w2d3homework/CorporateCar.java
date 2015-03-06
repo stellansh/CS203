@@ -32,13 +32,19 @@ public class CorporateCar extends Vehicle implements Asset {
         this.employee = employee;
     }
 
+    /**
+     *
+     */
+    @Override
     public void accelerate() {
         this.speed += 5;
-        if (this.speed > 65) {
+        if (this. speed > 65) {
             this.speed = 65;
         }
     }
 
+   
+    @Override
     public void brake() {
         this.speed -= 5;
         if (this.speed < 0) {
@@ -76,6 +82,11 @@ public class CorporateCar extends Vehicle implements Asset {
         }
 
         return x;
+    }
+
+    @Override
+    public double Amortize(int years) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
 }
