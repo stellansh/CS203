@@ -25,11 +25,11 @@ public class Automobile {
     }
 
     public Automobile(String make, String model, String color) {
-        this(make, model, 2000, color);
+        this(make, model, 2015, color);
     }
 
     public Automobile(String make, String model) {
-        this(make, model, 2000,"anonimous");
+        this(make, model, 2015,"anonimous");
     }    
     
     public void move() {

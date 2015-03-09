@@ -15,9 +15,9 @@ public class AutomobileTestDrive {
 
         ArrayList<Automobile> autos = new ArrayList<>();
 
-        Car car1 = new Car("benz", "mercedes", 2000, "red",  10);
+        Car car1 = new Car("benz", "mercedes", 2013, "red",  10);
         autos.add(car1);
-        Car car2 = new Car("Chevy", "camaro", 2005, "White", 15);
+        Car car2 = new Car("Chevy", "camaro", 2015, "White", 15);
         autos.add(car2);
         Car car3 = new Car("ford", "fusion", 12);
         autos.add(car3);
