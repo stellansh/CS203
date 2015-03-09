@@ -15,7 +15,7 @@ public class CalenderTestDriver {
 
     public static void main(String[] args) {
         Calendar cal = Calendar.getInstance();
-        cal.set(1991, 11,16);//, 9, 20);
+        cal.set(1991, 11,16, 9, 20);
         String d= String.format(" %tA, %<tB %<td %<tY", cal.getTime());
         System.out.println(d);
     }
