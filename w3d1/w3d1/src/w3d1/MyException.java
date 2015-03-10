@@ -9,13 +9,23 @@ package w3d1;
  *
  * @author stella
  */
-public class MyException {
+public class MyException extends Exception {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    public MyException() {
     }
-    
+
+    public MyException(String string) {
+        super(string);
+    }
+
+    public MyException(String string, Throwable thrwbl) {
+        super(string, thrwbl);
+    }
+
+    public MyException(Throwable thrwbl) {
+        super(thrwbl);
+    }
+     public MyException(String message, Throwable cause, boolean enableSuppression, boolean writableStackTrace) {
+        super(message, cause, enableSuppression, writableStackTrace);
+    }
 }
