@@ -114,7 +114,7 @@ import java.awt.event.ActionListener;
         
         JButton butc = new JButton("C");
         panel4.add(butc);
-        JTextField field=new JTextField("                              ");
+        field=new JTextField("                              ");
         panel3.add(field);
         panel.setPreferredSize(new Dimension(300,300));
         panel2.setPreferredSize(new Dimension(500,500));
@@ -127,28 +127,29 @@ import java.awt.event.ActionListener;
 
 		@Override
 		public void actionPerformed(ActionEvent e) {
-			field.setText("7");
+                   
+			field.setText(field.getText() + "7");
 		}
 	}
 	private class b8Listener implements ActionListener {
 
 		@Override
 		public void actionPerformed(ActionEvent e) {
-			field.setText("8");
+			field.setText(field.getText() + "8");
 		}
 	}
 	private class b9Listener implements ActionListener {
 
 		@Override
 		public void actionPerformed(ActionEvent e) {
-			field.setText("9");
+			field.setText(field.getText() + "9");
 		}
 	}
 	private class bplusListener implements ActionListener {
 
 		@Override
 		public void actionPerformed(ActionEvent e) {
-			field.setText("+");
+			field.setText(field.getText() +"+");
 		}
 	}
 	private class b4Listener implements ActionListener {
