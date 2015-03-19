@@ -5,7 +5,7 @@ import java.util.Scanner;
  *
  * @author stella
  */
-public class GuessWord {
+public class GuessWordorDie {
 
     public static void main(String[] args) {
         Things things = new Things();
@@ -39,7 +39,7 @@ public class GuessWord {
                     error++;
                     System.out.println("Try again!before u enter serious danger Error: " + error);
                 }
-                things.printWord(dashes);
+              things.printWord(dashes);
 
             } else {
                 System.out.println("Wrong input try again!");
