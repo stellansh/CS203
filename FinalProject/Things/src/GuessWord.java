@@ -25,7 +25,7 @@ public class GuessWord {
 
        int error = 0;
         boolean success = false;
-        while (error < 5 && success == false) {
+        while (error < 7 && success == false) {
             Scanner userInput = new Scanner(System.in);
             String chr = userInput.nextLine();
             if (chr.length() == 1) {
@@ -93,7 +93,7 @@ public class GuessWord {
                 System.out.println("    ");
                 System.out.println("    ");
             }
-            if (error == 5) {
+            if (error == 7) {
                 System.out.println("You only had " + error + " tries");
                 System.out.println("haha, you lost your head too?  ");
                 

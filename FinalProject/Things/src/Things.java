@@ -17,7 +17,7 @@ import java.util.ArrayList;
 public class Things {
 
     private String word;
-    //private ArrayList<Character> guessed = new ArrayList<>();
+    
 
     public ArrayList<String> getWords() {
         ArrayList<String> words = new ArrayList<String>();
